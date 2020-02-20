@@ -26,6 +26,7 @@
 		CF6A5D9C23F7AA62003ADCC7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5D9A23F7AA62003ADCC7 /* Profile.storyboard */; };
 		CF6A5DA423F7ADFB003ADCC7 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5DA323F7ADFB003ADCC7 /* Budget.storyboard */; };
 		CF6A5DA623F7AF66003ADCC7 /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5DA523F7AF66003ADCC7 /* Signin.storyboard */; };
+		CFA7936723FE2E7D0023365B /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */; };
 		CFA892D323FCD8EC0089CF9B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D223FCD8EC0089CF9B /* Colors.xcassets */; };
 		CFA892D523FCDFAA0089CF9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */; };
 		CFA892D823FCE7140089CF9B /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA892D723FCE7140089CF9B /* Shadow.swift */; };
@@ -49,6 +50,7 @@
 		CF6A5D9B23F7AA62003ADCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Aplication/Main/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		CF6A5DA323F7ADFB003ADCC7 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		CF6A5DA523F7AF66003ADCC7 /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
+		CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		CFA892D223FCD8EC0089CF9B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CFA892D723FCE7140089CF9B /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		CF6A631123F65485007CBF17 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA7936723FE2E7D0023365B /* OnBoarding.storyboard in Resources */,
 				CF47368023F24F9200AA04E4 /* LaunchScreen.storyboard in Resources */,
 				CF47367D23F24F9100AA04E4 /* Assets.xcassets in Resources */,
 				CF6A5D9423F7A9D0003ADCC7 /* Statistics.storyboard in Resources */,
