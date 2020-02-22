@@ -53,7 +53,7 @@
                                                     <constraint firstAttribute="height" constant="45" id="SoK-dn-XB1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="Sign In">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -71,6 +71,9 @@
                                                         <color key="value" name="GreenShadown"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="NLX-Jp-VDw" kind="presentation" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="4rA-v9-cle"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -216,7 +219,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="NtB-9h-vvv" firstAttribute="trailing" secondItem="b9a-jy-Xil" secondAttribute="trailing" constant="20" symbolic="YES" id="Az3-9H-06g"/>
+                            <constraint firstItem="NtB-9h-vvv" firstAttribute="trailing" secondItem="b9a-jy-Xil" secondAttribute="trailing" symbolic="YES" id="Az3-9H-06g"/>
                             <constraint firstItem="hOS-td-JiD" firstAttribute="top" secondItem="b9a-jy-Xil" secondAttribute="bottom" constant="19" id="DRo-Tb-iMi"/>
                             <constraint firstItem="gjb-oZ-bL2" firstAttribute="leading" secondItem="NtB-9h-vvv" secondAttribute="leading" id="P74-cs-avd"/>
                             <constraint firstItem="hOS-td-JiD" firstAttribute="centerX" secondItem="tmr-J1-YYH" secondAttribute="centerX" id="R4Y-ip-HDL"/>
@@ -235,6 +238,16 @@
             </objects>
             <point key="canvasLocation" x="37.600000000000001" y="58.920539730134934"/>
         </scene>
+        <!--Main-->
+        <scene sceneID="Wz3-of-hLR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="NLX-Jp-VDw" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OTS-jG-Jj1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slN-AT-HXp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="95"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Facebook" width="10" height="18"/>
@@ -248,16 +261,7 @@
             <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="GreenShadown">
-            <color red="0.31764705879999999" green="0.3921568627" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="GreenShadown">
-            <color red="0.31764705879999999" green="0.3921568627" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="GreenShadown">
             <color red="0.31764705882352939" green="0.39215686274509803" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="GreenShadown">
-            <color red="0.31764705879999999" green="0.3921568627" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TwtterColor">
             <color red="0.0" green="0.67450980392156867" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

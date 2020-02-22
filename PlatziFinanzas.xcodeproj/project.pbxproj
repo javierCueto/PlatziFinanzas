@@ -30,6 +30,9 @@
 		CFA892D323FCD8EC0089CF9B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D223FCD8EC0089CF9B /* Colors.xcassets */; };
 		CFA892D523FCDFAA0089CF9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */; };
 		CFA892D823FCE7140089CF9B /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA892D723FCE7140089CF9B /* Shadow.swift */; };
+		CFAE789F2400D92100DF884A /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE789E2400D92100DF884A /* OnBoardingContainerViewController.swift */; };
+		CFAE78A12400DB1900DF884A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE78A02400DB1900DF884A /* OnBoardingViewController.swift */; };
+		CFAE78A324018FC200DF884A /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE78A224018FC200DF884A /* OnBoardingStepsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		CFA892D223FCD8EC0089CF9B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CFA892D723FCE7140089CF9B /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		CFAE789E2400D92100DF884A /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		CFAE78A02400DB1900DF884A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		CFAE78A224018FC200DF884A /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */,
+				CFAE789E2400D92100DF884A /* OnBoardingContainerViewController.swift */,
+				CFAE78A02400DB1900DF884A /* OnBoardingViewController.swift */,
+				CFAE78A224018FC200DF884A /* OnBoardingStepsViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -364,6 +373,9 @@
 			files = (
 				CF47367823F24F9100AA04E4 /* ViewController.swift in Sources */,
 				CFA892D823FCE7140089CF9B /* Shadow.swift in Sources */,
+				CFAE789F2400D92100DF884A /* OnBoardingContainerViewController.swift in Sources */,
+				CFAE78A12400DB1900DF884A /* OnBoardingViewController.swift in Sources */,
+				CFAE78A324018FC200DF884A /* OnBoardingStepsViewController.swift in Sources */,
 				CF47367423F24F9000AA04E4 /* AppDelegate.swift in Sources */,
 				CF47367623F24F9100AA04E4 /* SceneDelegate.swift in Sources */,
 			);
