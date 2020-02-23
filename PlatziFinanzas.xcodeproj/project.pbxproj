@@ -33,6 +33,7 @@
 		CFAE789F2400D92100DF884A /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE789E2400D92100DF884A /* OnBoardingContainerViewController.swift */; };
 		CFAE78A12400DB1900DF884A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE78A02400DB1900DF884A /* OnBoardingViewController.swift */; };
 		CFAE78A324018FC200DF884A /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE78A224018FC200DF884A /* OnBoardingStepsViewController.swift */; };
+		CFAE78A52402208B00DF884A /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE78A42402208B00DF884A /* TransactionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		CFAE789E2400D92100DF884A /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		CFAE78A02400DB1900DF884A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		CFAE78A224018FC200DF884A /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		CFAE78A42402208B00DF884A /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				CF6A5D8F23F7A763003ADCC7 /* Transactions.storyboard */,
+				CFAE78A42402208B00DF884A /* TransactionsViewController.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				CFAE78A12400DB1900DF884A /* OnBoardingViewController.swift in Sources */,
 				CFAE78A324018FC200DF884A /* OnBoardingStepsViewController.swift in Sources */,
 				CF47367423F24F9000AA04E4 /* AppDelegate.swift in Sources */,
+				CFAE78A52402208B00DF884A /* TransactionsViewController.swift in Sources */,
 				CF47367623F24F9100AA04E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
