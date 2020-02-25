@@ -1,39 +1,39 @@
 //
-//  TransactionsViewController.swift
+//  BudgetViewController.swift
 //  PlatziFinanzas
 //
-//  Created by José Javier Cueto Mejía on 22/02/20.
+//  Created by José Javier Cueto Mejía on 24/02/20.
 //  Copyright © 2020 José Javier Cueto Mejía. All rights reserved.
 //
 
 import UIKit
 
-class TransactionsViewController: UIViewController {
+class BudgetViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
-    fileprivate(set) lazy var emptyStateView: UIView = {
-        guard let view =  Bundle.main.loadNibNamed("EmptyState", owner: nil, options: [:])?.first as? UIView else{
-            return UIView()
-        }
-        
-        return view
-    }()
+    
+    @IBOutlet var animationButtons: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let cell = UINib(nibName: "TransactionsCell", bundle: Bundle.main)
         tableView.register(cell, forCellReuseIdentifier: "cell")
     }
     
-
-
+    
+    @IBAction func animateHeader(sender: UIButton){
+        
+    }
+    
 }
 
 
-extension TransactionsViewController: UITableViewDataSource{
+
+extension BudgetViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = 10
-        tableView.backgroundView = count == 0 ? emptyStateView : nil
-        tableView.separatorStyle = count == 0 ? .none : .singleLine
+       // tableView.backgroundView = count == 0 ? emptyStateView : nil
+        //tableView.separatorStyle = count == 0 ? .none : .singleLine
         return count
     }
     
@@ -44,6 +44,7 @@ extension TransactionsViewController: UITableViewDataSource{
     
 }
 
-extension TransactionsViewController: UITableViewDelegate{
+extension BudgetViewController: UITableViewDelegate{
     
 }
+

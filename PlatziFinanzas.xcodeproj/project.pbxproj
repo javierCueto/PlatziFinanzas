@@ -26,6 +26,10 @@
 		CF6A5D9C23F7AA62003ADCC7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5D9A23F7AA62003ADCC7 /* Profile.storyboard */; };
 		CF6A5DA423F7ADFB003ADCC7 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5DA323F7ADFB003ADCC7 /* Budget.storyboard */; };
 		CF6A5DA623F7AF66003ADCC7 /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A5DA523F7AF66003ADCC7 /* Signin.storyboard */; };
+		CF6EFA402404BC3A00B8633C /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6EFA3F2404BC3A00B8633C /* EmptyState.xib */; };
+		CF6EFA422404C4D800B8633C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFA412404C4D800B8633C /* TabBarViewController.swift */; };
+		CF6EFA452404C98900B8633C /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6EFA442404C98900B8633C /* TransactionsCell.xib */; };
+		CF6EFA472404CCA200B8633C /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFA462404CCA200B8633C /* BudgetViewController.swift */; };
 		CFA7936723FE2E7D0023365B /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */; };
 		CFA892D323FCD8EC0089CF9B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D223FCD8EC0089CF9B /* Colors.xcassets */; };
 		CFA892D523FCDFAA0089CF9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */; };
@@ -54,6 +58,10 @@
 		CF6A5D9B23F7AA62003ADCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Aplication/Main/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		CF6A5DA323F7ADFB003ADCC7 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		CF6A5DA523F7AF66003ADCC7 /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
+		CF6EFA3F2404BC3A00B8633C /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
+		CF6EFA412404C4D800B8633C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CF6EFA442404C98900B8633C /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		CF6EFA462404CCA200B8633C /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		CFA7936623FE2E7D0023365B /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		CFA892D223FCD8EC0089CF9B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CFA892D423FCDFAA0089CF9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -125,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				CF6A5DA323F7ADFB003ADCC7 /* Budget.storyboard */,
+				CF6EFA462404CCA200B8633C /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -229,6 +238,8 @@
 			children = (
 				CF6A5D8F23F7A763003ADCC7 /* Transactions.storyboard */,
 				CFAE78A42402208B00DF884A /* TransactionsViewController.swift */,
+				CF6EFA3F2404BC3A00B8633C /* EmptyState.xib */,
+				CF6EFA442404C98900B8633C /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -246,6 +257,7 @@
 			children = (
 				CF47367723F24F9100AA04E4 /* ViewController.swift */,
 				CF47367923F24F9100AA04E4 /* Main.storyboard */,
+				CF6EFA412404C4D800B8633C /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -349,6 +361,8 @@
 				CF6A5DA423F7ADFB003ADCC7 /* Budget.storyboard in Resources */,
 				CF47367B23F24F9100AA04E4 /* Main.storyboard in Resources */,
 				CFA892D323FCD8EC0089CF9B /* Colors.xcassets in Resources */,
+				CF6EFA402404BC3A00B8633C /* EmptyState.xib in Resources */,
+				CF6EFA452404C98900B8633C /* TransactionsCell.xib in Resources */,
 				CF6A5D9C23F7AA62003ADCC7 /* Profile.storyboard in Resources */,
 				CF6A5DA623F7AF66003ADCC7 /* Signin.storyboard in Resources */,
 				CF6A5D9923F7AA38003ADCC7 /* Add.storyboard in Resources */,
@@ -378,8 +392,10 @@
 				CFA892D823FCE7140089CF9B /* Shadow.swift in Sources */,
 				CFAE789F2400D92100DF884A /* OnBoardingContainerViewController.swift in Sources */,
 				CFAE78A12400DB1900DF884A /* OnBoardingViewController.swift in Sources */,
+				CF6EFA422404C4D800B8633C /* TabBarViewController.swift in Sources */,
 				CFAE78A324018FC200DF884A /* OnBoardingStepsViewController.swift in Sources */,
 				CF47367423F24F9000AA04E4 /* AppDelegate.swift in Sources */,
+				CF6EFA472404CCA200B8633C /* BudgetViewController.swift in Sources */,
 				CFAE78A52402208B00DF884A /* TransactionsViewController.swift in Sources */,
 				CF47367623F24F9100AA04E4 /* SceneDelegate.swift in Sources */,
 			);
